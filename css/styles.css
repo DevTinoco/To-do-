@@ -9,8 +9,27 @@
 }
 
 body {
-    background-image: ("../img/Dubbai.jpg");
+    
+    background-image: url("../img/Paisagem.jpg");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 
+button{
+
+    background-color: #fdfdfd;
+    color: #102f5e;
+    border: 2px solid #102f5e;
+    padding: .3rem .6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display:  flex;
+    justify-content: center;
+    align-items: center;
+    transition: .4s;
+}
+
+button:hover >
+}
